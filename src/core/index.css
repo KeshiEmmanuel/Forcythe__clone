@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-primary text-white;
+    }
+    .max-container {
+        @apply max-w-[1240px] mx-5 lg:mx-auto;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
