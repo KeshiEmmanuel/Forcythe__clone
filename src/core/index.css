@@ -7,12 +7,50 @@
         @apply bg-primary text-white;
     }
     .max-container {
-        @apply max-w-[1240px] mx-5 lg:mx-auto;
+        @apply max-w-[1280px] mx-6 lg:mx-auto;
+    }
+    .section-padding {
+        @apply py-[5.5rem];
+    }
+    .blue-gradient {
+        background-color: #030416;
+        background-image: linear-gradient(
+            0deg,
+            rgb(12, 38, 69) 20%,
+            rgb(3, 5, 22) 70%
+        );
+    }
+    .stat-gradient {
+        background-image: linear-gradient(
+            rgb(12, 38, 69) 20%,
+            rgb(3, 5, 22) 60%
+        );
+    }
+    .contact-gradient {
+        background: linear-gradient(
+            0deg,
+            rgb(7, 22, 38) 20%,
+            rgb(3, 5, 22) 69%
+        );
+    }
+    .navmenu-gradient {
+        background: linear-gradient(
+            0deg,
+            rgba(7, 22, 38, 0) 32%,
+            rgb(7, 22, 38) 85%
+        );
+    }
+    .grid-cols {
+        display: grid;
+        grid-template-columns: 400px auto;
+        align-items: center;
+        height: 100%;
     }
 }
 html {
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
