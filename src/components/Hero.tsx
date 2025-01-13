@@ -8,12 +8,12 @@ const Hero = () => {
                 className="w-screen h-screen lg:w-fit bg-top lg:h-fit absolute object-cover object-top"
                 alt=""
             />
-            <div className="bg-transperent-hero rounded-3xl bg-opacity-[.75] max-container font-primary">
-                <div className="relative pl-5 py-10 z-[100] lg:pr-[8rem]">
-                    <h1 className="text-6xl lg:text-screen">
-                        We build <br className="lg:hidden" />
-                        <span className="text-blue-400">products</span> that
-                        shape a better future
+            <div className="bg-transperent-hero rounded-[3rem] bg-opacity-[.75] max-container font-primary">
+                <div className="relative py-8 px-6 md:pl-10 md:py-10 z-[100] lg:pr-[8rem]">
+                    <h1 className="text-6xl lg:text-screen lg:w-[1000px]">
+                        We build{" "}
+                        <span className="text-blue-400 mx-2">products</span>
+                        that shape a better future
                     </h1>
                     <p className="py-6 text-gray-400 lg:text-lg lg:pr-[20rem]">
                         We’re the architects of digital excellence across

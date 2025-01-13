@@ -105,3 +105,80 @@ export const FooterIcons = [
     <FaLinkedin />,
     <FaYoutube />,
 ];
+
+export const TestiomonialsTabsHeading = [
+    {
+        id: 1,
+        tabImage: "/testimonial/ExecutivePros.svg",
+        value: "ExecutivePros",
+        tabTitle: "Testimony, Co-founder",
+        tabDescription:
+            "The team understood the assignment and delivered very well. One of the things that stood them out was how they took our concepts and turned it into visually appealing designs that caught the eyes of our clients and made increased web engagements. Kudos!",
+
+        tabCompany: "Executive Pros",
+    },
+    {
+        id: 2,
+        tabImage: "/testimonial/stacai.svg",
+        value: "stacai",
+        tabTitle: "Edwin, Former CTO",
+        tabDescription:
+            "Forcythe is seriously amazing when it comes to coming up with new ideas. They took our rough ideas and turned them into something incredible online. Their team’s commitment to our vision was evident every step of the way.",
+
+        tabCompany: "Stac AI",
+    },
+    {
+        id: 3,
+        tabImage: "/testimonial/iwaria.svg",
+        value: "iwaria",
+        tabTitle: "Iwaria, Founder",
+        tabDescription:
+            "The moment we engaged Forcythe, it was clear they were in a league of their own. Their strategic approach to our project not only enhanced our online platform but also enriched our brand’s story, captivating our audience like never before.",
+        tabCompany: "Iwaria",
+    },
+    {
+        id: 4,
+        tabImage: "/testimonial/Beaupreneur.svg",
+        value: "Beaupreneur",
+        tabTitle: "Christiana, Founder",
+        tabDescription:
+            "I’m beyond impressed with the dedication Forcythe showed. They didn’t just deliver—they educated us, involving us in the creative process. The result? A website that truly feels like ours and speaks directly to our customers’ hearts.",
+
+        tabCompany: "Beaupreneur",
+    },
+];
+
+export const CycleContents = [
+    {
+        id: 1,
+        cycleTitle: "Idea",
+        cycleSubHeading: "Your vision is unique.",
+        cycleDescription:
+            "Nurture Your Idea into a Blueprint for Success with our strategic insights and industry expertise. Your vision is unique, let’s us shape it.",
+        cycleImage: "/camera-man.svg",
+    },
+    {
+        id: 2,
+        cycleTitle: "Design",
+        cycleSubHeading: "Crafting the blueprint for success",
+        cycleDescription:
+            "Design is more than aesthetics, it’s about creating user experiences that resonate and convert. Our design experts shape your vision into a stunning reality.",
+        cycleImage: "/plan-design.svg",
+    },
+    {
+        id: 3,
+        cycleTitle: "Develop",
+        cycleSubHeading: "Turning blueprints into reality.",
+        cycleDescription:
+            "We breathe life into designs, building robust platforms ready to disrupt markets. Harness the experience of our development team to bring your Concept to Life",
+        cycleImage: "/plan-develop.svg",
+    },
+    {
+        id: 4,
+        cycleTitle: "Launch",
+        cycleSubHeading: "Your launchpad to the market.",
+        cycleDescription:
+            "Launching is just the beginning, we ensure your product makes a splash and keeps making waves, ensuring a continual customer acquisition.",
+        cycleImage: "/plan-launch.svg",
+    },
+];

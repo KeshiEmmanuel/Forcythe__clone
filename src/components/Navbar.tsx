@@ -2,6 +2,7 @@ import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { FooterLinks, NavLinks } from "../data";
 import Button from "./Button";
+import { HiMenuAlt2 } from "react-icons/hi";
 const Navbar = () => {
     const [dropDown, setDropDown] = useState(false);
     return (
@@ -15,7 +16,7 @@ const Navbar = () => {
                         onClick={() => setDropDown((prev) => !prev)}
                         className="text-2xl bg-transperent-hero p-1 md:hidden"
                     >
-                        <MdMenu />
+                        <HiMenuAlt2 />
                     </div>
                     <ul className="hidden md:flex items-center gap-5 lg:-ml-[26rem]">
                         {NavLinks.map((link) => (
