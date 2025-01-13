@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">Forcythe clone</h3>
+  <h1 align="center">Forcythe clone</h1>
 
    <div align="center">
    Recreated the landing page of one of the largest digital agency in Nigeria
@@ -45,8 +45,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/award-winning-website.git
-cd award-winning-website
+git clone https://github.com/KeshiEmmanuel/Forcythe__clone.git
+cd Forcythe__clone
 ```
 
 **Installation**
