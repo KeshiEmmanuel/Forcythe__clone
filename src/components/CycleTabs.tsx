@@ -9,8 +9,8 @@ import CycleTabImage from "./CycleTabImage";
 const CycleTabs = () => {
     const [activeTab, setActiveTab] = useState<number>(0);
     return (
-        <div className="md:flex md:items-center md:justify-between">
-            <div className="flex flex-col pt-10 lg:basis-[700px]">
+        <div className="lg:-mt-20 md:flex md:items-center md:justify-between">
+            <div className="flex flex-col pt-10 lg:basis-[600px]">
                 <div className="border-2 p-2 border-blue-200 rounded-full flex justify-between">
                     <CycleTabsButton
                         cycles={CycleContents}

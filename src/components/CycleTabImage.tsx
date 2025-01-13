@@ -8,7 +8,7 @@ const CycleTabImage = ({ cycles, activeTab }: Props) => {
     return (
         <>
             <img
-                className="mt-10 lg:mt-0 w-fit lg:w-[400px] lg:basis-[400px]"
+                className="mt-10 lg:mt-0 w-fit lg:w-[600px] lg:h-[600px] lg:basis-[600px]"
                 src={cycles[activeTab].cycleImage}
                 alt={cycles[activeTab].cycleTitle}
             />
