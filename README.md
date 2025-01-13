@@ -45,8 +45,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/award-winning-website.git
-cd award-winning-website
+git clone https://github.com/KeshiEmmanuel/Forcythe__clone.git
+cd Forcythe__clone
 ```
 
 **Installation**
