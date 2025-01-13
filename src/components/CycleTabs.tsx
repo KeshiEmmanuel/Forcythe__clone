@@ -10,8 +10,8 @@ const CycleTabs = () => {
     const [activeTab, setActiveTab] = useState<number>(0);
     return (
         <div className="md:flex md:items-center md:justify-between">
-            <div className="flex flex-col pt-10 lg:basis-[600px]">
-                <div className="py-3 border-2 border-blue-200 px-10 lg:py-4 rounded-full flex justify-between">
+            <div className="flex flex-col pt-10 lg:basis-[700px]">
+                <div className="border-2 p-2 border-blue-200 rounded-full flex justify-between">
                     <CycleTabsButton
                         cycles={CycleContents}
                         activeTab={activeTab}

@@ -15,7 +15,7 @@ const CycleTabsButton = ({ cycles, setActiveTab, activeTab }: Props) => {
                     onClick={() => setActiveTab(i)}
                     className={`border-none outline-none ${
                         activeTab === i && "bg-blue-300 rounded-full"
-                    } py-2 px-5 `}
+                    } w-32 h-16`}
                 >
                     {cycle.cycleTitle}
                 </button>
