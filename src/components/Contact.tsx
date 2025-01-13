@@ -7,11 +7,11 @@ export default function Contact() {
             <div className="max-container relative">
                 <div className="flex flex-col items-center gap-4">
                     <h2 className="text-4xl text-center lg:w-[700px] lg:text-5xl lg:mx-auto">
-                        <HighlightedText spacing="1">
+                        <HighlightedText className="px-2">
                             Ready to Scale?
                         </HighlightedText>
                         Join successful brands that chose us as their
-                        <HighlightedText spacing="1">
+                        <HighlightedText className="px-2">
                             growth accelerator
                         </HighlightedText>
                     </h2>

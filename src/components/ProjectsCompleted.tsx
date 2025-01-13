@@ -6,8 +6,8 @@ const ProjectsCompleted = () => {
             <div className="mt-16">
                 <h1 className="text-center text-3xl lg:text-fit font-primary">
                     Success in
-                    <HighlightedText spacing="2">Motion</HighlightedText>– Our
-                    clients’ journey
+                    <HighlightedText className="px-2">Motion</HighlightedText>–
+                    Our clients’ journey
                 </h1>
 
                 <AnimatedProjects

@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="bg-transperent-hero rounded-[3rem] bg-opacity-[.75] max-container font-primary">
                 <div className="relative py-8 px-6 md:pl-10 md:py-10 z-[100] lg:pr-[8rem]">
                     <h1 className="text-6xl lg:text-screen lg:w-[1000px]">
-                        We build <br className="md:hidden" />
-                        <HighlightedText spacing={"2"}>
+                        <span> We build </span>
+                        <HighlightedText className="-ml-4 px-2">
                             products
                         </HighlightedText>
                         that shape a better future

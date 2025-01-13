@@ -36,11 +36,11 @@ export default function Features() {
                             <h1 className="font-primary md:text-3xl lg:text-3xl lg:w-full  text-center px-[3.1rem] lg:px-0 text-lg">
                                 We build solutions that help
                                 <br className="lg:hidden" />
-                                <HighlightedText spacing="0.5">
+                                <HighlightedText className="px-1">
                                     businesses
                                 </HighlightedText>{" "}
                                 of all sizes to
-                                <HighlightedText spacing="1">
+                                <HighlightedText className="px-1">
                                     scale
                                 </HighlightedText>
                             </h1>
