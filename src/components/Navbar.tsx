@@ -1,4 +1,3 @@
-import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { FooterLinks, NavLinks } from "../data";
 import Button from "./Button";

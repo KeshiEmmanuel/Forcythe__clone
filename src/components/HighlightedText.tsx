@@ -1,8 +1,8 @@
 interface Props {
     children: React.ReactNode;
-    spacing: number;
+    spacing?: string;
 }
 
 export default function HighlightedText({ children, spacing }: Props) {
-    return <span className={`text-blue-400 mx-[${spacing}]`}>{children}</span>;
+    return <span className={`text-blue-400 mx-${spacing}`}>{children}</span>;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import { BsCaretRightFill } from "react-icons/bs";
 import { BlogPosts } from "../data";

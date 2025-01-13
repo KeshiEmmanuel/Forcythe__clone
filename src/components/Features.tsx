@@ -1,5 +1,6 @@
 import { FeaturesWriteUp, FulifmentStats } from "../data";
 import FeatureCard from "./FeatureCard";
+import HighlightedText from "./HighlightedText";
 import StatCard from "./StatCard";
 
 export default function Features() {
@@ -35,13 +36,13 @@ export default function Features() {
                             <h1 className="font-primary md:text-3xl lg:text-3xl lg:w-full  text-center px-[3.1rem] lg:px-0 text-lg">
                                 We build solutions that help
                                 <br className="lg:hidden" />
-                                <span className="text-blue-400 ml-1">
+                                <HighlightedText spacing="0.5">
                                     businesses
-                                </span>{" "}
+                                </HighlightedText>{" "}
                                 of all sizes to
-                                <span className="text-blue-400 ml-1">
+                                <HighlightedText spacing="1">
                                     scale
-                                </span>
+                                </HighlightedText>
                             </h1>
                             <div className="flex items-center md:gap-20 justify-center gap-5 mt-10 max-container">
                                 {FulifmentStats.map((stat) => (

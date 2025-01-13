@@ -1,3 +1,4 @@
+import HighlightedText from "./HighlightedText";
 import TestiomonialTabs from "./TestiomonialTabs";
 
 const Testiomonial = () => {
@@ -6,9 +7,9 @@ const Testiomonial = () => {
             <div className="max-container">
                 <h2 className="text-3xl text-center lg:text-5xl lg:w-[900px] lg:mx-auto">
                     Discover the
-                    <span className="text-blue-400 mx-2">
+                    <HighlightedText spacing="2">
                         transformative stories
-                    </span>
+                    </HighlightedText>
                     of startups that <br className="lg:hidden" /> scaled new
                     heights with us
                 </h2>

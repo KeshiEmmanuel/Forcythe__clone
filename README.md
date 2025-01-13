@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+<div align="center">
+  <br />
+    <img src="./public/forcythe.png" alt="forcythe">
+  <br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-Currently, two official plugins are available:
+  <h3 align="center">Forcythe clone</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   <div align="center">
+   Recreated the landing page of one of the largest digital agency in Nigeria
+    </div>
+</div>
 
-## Expanding the ESLint configuration
+## 📋 <a name="table">Table of Contents</a>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. ⚙️ [Tech Stack](#tech-stack)
+2. 🔋 [Features](#features)
+3. 🤸 [Quick Start](#quick-start)
 
-- Configure the top-level `parserOptions` property like this:
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+-   React.js
+-   Tailwind CSS
+
+## <a name="features">🔋 Features</a>
+
+-   Modern UI/UX design
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+-   [Git](https://git-scm.com/)
+-   [Node.js](https://nodejs.org/en)
+-   [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/adrianhajdin/award-winning-website.git
+cd award-winning-website
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Installation**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Install the project dependencies using npm:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
