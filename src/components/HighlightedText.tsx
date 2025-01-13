@@ -4,5 +4,5 @@ interface Props {
 }
 
 export default function HighlightedText({ children, spacing }: Props) {
-    return <span className={`text-blue-400 mx-${spacing}`}>{children}</span>;
+    return <span className={`text-blue-400 px-${spacing}`}>{children}</span>;
 }
